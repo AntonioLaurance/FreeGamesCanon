@@ -46,7 +46,6 @@ def draw():
 
     update()
 
-
 def move():
     """Move ball and targets."""
     if randrange(40) == 0:
@@ -74,7 +73,7 @@ def move():
         if not inside(target):
             return
 
-    ontimer(move, 50)
+    ontimer(move, 10)
 
 
 setup(420, 420, 370, 0)
