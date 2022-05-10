@@ -1,11 +1,11 @@
 """Cannon, hitting targets with projectiles.
 
-Exercises
+Autores: 
+Programador 1: Moisés Adame Aguilar         (A01660927)
+Programador 2: Ricardo Campos Luna          (A01656898)
+Programador 3: Humberto Ivan Ulloa Cardona  (A01657143)
 
-1. Keep score by counting target hits.
-2. Vary the effect of gravity.
-3. Apply gravity to the targets.
-4. Change the speed of the ball.
+Fecha: 10 de Mayo del 2022
 """
 
 from random import randrange
