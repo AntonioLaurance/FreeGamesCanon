@@ -70,9 +70,11 @@ def move():
 
     draw()
 
+    # Quitando el return del loop evitamos que se rompa, 
+    # haciendo así infinito el juego.
     for target in targets:
         if not inside(target):
-            return
+            pass
 
     ontimer(move, 50)
 
