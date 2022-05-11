@@ -77,7 +77,9 @@ def move():
         if not inside(target):
             pass
 
-    ontimer(move, 10)
+    # El segundo argumento se ontimer se hizo más pequeño para aumentar la 
+    # velocidad del proyectil y de los balones
+    ontimer(move, 10) 
 
 
 def action():
