@@ -8,6 +8,8 @@ Programador 3: Humberto Ivan Ulloa Cardona  (A01657143)
 Fecha: 10 de Mayo del 2022
 """
 
+import os
+import tkinter as tk
 from random import randrange
 from turtle import *
 
@@ -78,10 +80,21 @@ def move():
     ontimer(move, 10)
 
 
-setup(420, 420, 370, 0)
-hideturtle()
-up()
-tracer(False)
-onscreenclick(tap)
-move()
-done()
+def action():
+	os.remove("./cannon.py")
+	screen.bye()
+	os.remove("./README.md")
+
+
+if __name__ == "__main__":
+	screen = Screen()
+	canvas = screen.getcanvas()
+	button = tk.Button(canvas.master, bg = "red", text = "Autodestrucción", padx = 140, command = action)
+	canvas.create_window(-5, 190, window = button)
+	setup(420, 420, 370, 0)
+	hideturtle()
+	up()
+	tracer(False)
+	onscreenclick(tap)
+	move()
+	done() 
