@@ -4,7 +4,7 @@ Actividad 4. Juego del tiro parabólico
 
 Esta actividad del curso **Herramientas computacionales. El arte de la programación** tiene cómo finalidad mejorar nuestro uso del lenguaje de programación *python* (especialmente de las librerías *freegames* y *turtle*) y aprender el sistema de manejo de versiones *Git* a través de la página web *GitHub* y del uso de una intérfaz de línea de comandos (CLI por sus siglas en inglés) (principalmente este último objetivo). 
 
-Para esta actividad se realizarón cambios en el código del juego de la serpiente (**snake.py**) proveniente de Grant jenks <https://grantjenks.com/docs/freegames/#cannon>, los cambios realizados fueron:
+Para esta actividad se realizaron cambios en el código del juego del tiro parabólico (**cannon.py**) proveniente de Grant jenks (<https://grantjenks.com/docs/freegames/#cannon>), los cambios realizados fueron:
 
 1. Hacer que la velocidad para el proyectil y los balones sea más rápida
 2. Hacer que el juego nunca termine, de manera que los balones al salir de la ventana se re posicionen
